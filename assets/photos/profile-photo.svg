@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="S. Vaheesh profile placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7e9"/>
+      <stop offset="0.45" stop-color="#e9f8f1"/>
+      <stop offset="1" stop-color="#f4ecff"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#169B70"/>
+      <stop offset="1" stop-color="#D8842D"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#18233A" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <rect width="900" height="1100" rx="70" fill="url(#bg)"/>
+  <circle cx="160" cy="170" r="120" fill="#169B70" opacity="0.13"/>
+  <circle cx="745" cy="230" r="145" fill="#D8842D" opacity="0.15"/>
+  <circle cx="720" cy="900" r="180" fill="#2A7FC4" opacity="0.10"/>
+  <g filter="url(#shadow)">
+    <rect x="150" y="180" width="600" height="740" rx="48" fill="rgba(255,255,255,0.72)" stroke="rgba(255,255,255,0.9)" stroke-width="4"/>
+    <circle cx="450" cy="445" r="150" fill="url(#g)"/>
+    <text x="450" y="492" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="800" fill="white" letter-spacing="8">VS</text>
+    <text x="450" y="690" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="800" fill="#18233A" letter-spacing="5">S. VAHEESH</text>
+    <text x="450" y="748" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#169B70" letter-spacing="3">SOFTWARE ENGINEERING UNDERGRADUATE</text>
+    <rect x="258" y="800" width="384" height="54" rx="27" fill="url(#g)" opacity="0.96"/>
+    <text x="450" y="835" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="800" fill="white" letter-spacing="2">ADD PROFILE PHOTO HERE</text>
+  </g>
+</svg>

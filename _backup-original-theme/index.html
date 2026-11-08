@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S. Vaheesh | Professional Skills Portfolio</title>
+  <meta name="description" content="A professional skills learning portfolio by S. Vaheesh with lecture reflections and the Grow Green final project as evidence." />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Bebas+Neue&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="loader-mark"><span></span><span></span><span></span></div>
+    <p>Building the learning journey</p>
+  </div>
+
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <div class="bg-scene" aria-hidden="true">
+    <span class="bg-orb orb-1"></span>
+    <span class="bg-orb orb-2"></span>
+    <span class="bg-orb orb-3"></span>
+    <span class="bg-orb orb-4"></span>
+    <span class="bg-ring ring-1"></span>
+    <span class="bg-ring ring-2"></span>
+    <span class="bg-beam beam-1"></span>
+    <span class="bg-beam beam-2"></span>
+    <span class="bg-grid-overlay"></span>
+    <span class="bg-noise-dots"></span>
+  </div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="site-header" id="siteHeader">
+    <a href="#home" class="brand" aria-label="Go to home">
+      <span class="brand-mark">VS</span>
+      <span><strong>Vaheesh</strong><small>Professional Skills</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#lecture-03">CV</a>
+      <a href="#journal">Lectures</a>
+      <a href="#skills">Skills</a>
+      <a href="#project">Final Project</a>
+      <a href="#gallery">Gallery</a>
+      <button class="quick-search-btn" id="openSearch" type="button">Search</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span>SLIIT City UNI · Professional Skills Journal</p>
+          <h1 class="hero-title">
+            <span data-txt="LEARNING"></span>
+            <span data-txt="TO GROW"></span>
+            <span data-txt="BEYOND THE ROOM"></span>
+          </h1>
+          <p class="hero-lead">An animated learning portfolio that documents every Professional Skills lecture in detail — what I learned, how I experienced it, and how I applied it — before closing with Grow Green, our final project, as real evidence of teamwork and growth.</p>
+          <div class="hero-actions">
+            <a class="btn primary magnetic" href="#journal">Explore Lectures</a>
+            <a class="btn secondary magnetic" href="#project">View Final Project</a>
+          </div>
+        </div>
+        <div class="hero-stage tilt" aria-label="Portfolio preview illustration">
+          <div class="stage-card main">
+            <div class="stage-top"><span></span><span></span><span></span></div>
+            <p class="stage-label">Learning Path</p>
+            <h2>00 — 10</h2>
+            <p>Lecture reflections, soft skills, real-life applications and evidence — one chapter at a time.</p>
+            <div class="stage-path"><i></i><i></i><i></i><i></i><i></i></div>
+          </div>
+          <div class="stage-card floating one"><strong>11</strong><span>Records</span></div>
+          <div class="stage-card floating two"><strong>50</strong><span>Plants</span></div>
+          <div class="stage-card floating three"><strong>41</strong><span>Team Members</span></div>
+        </div>
+      </div>
+      <div class="hero-stats reveal" aria-label="Portfolio statistics">
+        <article><span data-count="11">0</span><p>Lecture Records</p></article>
+        <article><span data-count="6">0</span><p>Skill Areas</p></article>
+        <article><span data-count="50">0</span><p>Plants Distributed</p></article>
+        <article><span data-count="18000">0</span><p>Project Budget (LKR)</p></article>
+      </div>
+    </section>
+
+
+    <!-- SELF INTRODUCTION -->
+    <section class="section self-intro" id="about">
+      <div class="self-intro-grid">
+        <div class="portrait-wrap reveal tilt">
+          <div class="portrait-frame">
+            <img src="assets/photos/vaheesh-profile.webp" alt="Portrait of S. Vaheesh" />
+          </div>
+          <div class="portrait-badge">Year 2 • Semester 2</div>
+        </div>
+        <div class="self-copy reveal d1">
+          <p class="eyebrow"><span></span>About Me</p>
+          <h2>I am <span class="green-word">Vaheesh</span><br><span class="dim">Sivathayalan.</span></h2>
+          <p>I'm a second-year BSc Information Technology student at SLIIT City University, currently in <strong>Year 2 Semester 2</strong>. This journal documents everything I'm learning in the Professional Skills module — the people-skills that turn a coder into a well-rounded professional.</p>
+          <p>I built this site by hand with <strong>HTML, CSS and JavaScript</strong>. It's both my coursework and a small portfolio piece — a record of how I'm growing, one week at a time.</p>
+          <div class="intro-tags" aria-label="Personal strengths">
+            <span>BSc IT</span>
+            <span>Year 2 · Sem 2</span>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PURPOSE -->
+    <section class="section purpose" id="purpose">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span></span>Portfolio Purpose</p>
+        <h2>Designed to show <span class="dim">learning</span><br>before decoration.</h2>
+        <p>This structure keeps the lecture journey as the main focus. Project evidence and photos are placed at the end, so the portfolio clearly shows what I learned first — and what I built with it after.</p>
+      </div>
+      <div class="purpose-grid">
+        <article class="glass-card reveal tilt"><span class="card-no">01</span><h3>Lecture-first flow</h3><p>The site opens with my Professional Skills learning journey rather than project photos — the learning comes first.</p></article>
+        <article class="glass-card reveal tilt d1"><span class="card-no">02</span><h3>Detailed journal format</h3><p>Every lecture includes its focus, key concepts, what I learned, my experience, soft skills, real-life application and evidence.</p></article>
+        <article class="glass-card reveal tilt d2"><span class="card-no">03</span><h3>Final evidence section</h3><p>Grow Green appears near the end as the practical outcome of teamwork, planning, communication and responsibility.</p></article>
+      </div>
+    </section>
+
+    <!-- LECTURE JOURNAL -->
+    <section class="section journal" id="journal">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span></span>Lecture Journal</p>
+        <h2>CHAPTERS<br><span class="dim">OF GROWTH</span></h2>
+        <p>Eleven recorded lectures — each one expanded into a full learning record: slide focus, key concepts, personal reflection, developed skills, real-life application and evidence.</p>
+      </div>
+
+      <div class="journal-toolbar reveal">
+        <div class="search-box"><input type="search" id="lectureSearch" placeholder="Search lecture, skill, activity..." /></div>
+        <div class="filter-row" id="filterRow" aria-label="Lecture filters"></div>
+      </div>
+
+      <div class="journal-layout">
+        <aside class="lecture-sidebar reveal">
+          <div class="sidebar-inner">
+            <p class="sidebar-title">Lecture Map</p>
+            <div id="lectureMap" class="lecture-map"></div>
+          </div>
+        </aside>
+        <div class="lecture-stack" id="lectureStack"></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span></span>Skill Matrix</p>
+        <h2>What the lectures<br><span class="dim">developed in me.</span></h2>
+        <p>This section connects the weekly lessons to professional abilities I can use in academic, social and workplace contexts.</p>
+      </div>
+      <div class="skill-matrix reveal">
+        <article><span>Mindset</span><strong>Self-awareness · EQ · Self-control</strong><p>Understanding myself and managing emotions professionally.</p></article>
+        <article><span>Career</span><strong>Portfolio · CV · Interviews</strong><p>Presenting my skills, achievements and growth in a professional way.</p></article>
+        <article><span>Ethics</span><strong>Integrity · Responsibility · Judgement</strong><p>Making decisions that protect people, data and trust.</p></article>
+        <article><span>Communication</span><strong>Meetings · Minutes · Phone Calls</strong><p>Handling professional conversations, documentation and follow-ups.</p></article>
+        <article><span>People</span><strong>Negotiation · Persuasion · Listening</strong><p>Reaching agreements that solve problems without damaging relationships.</p></article>
+        <article><span>Presence &amp; Social</span><strong>Grooming · Etiquette · Dining</strong><p>Carrying myself with confidence in formal and social settings.</p></article>
+      </div>
+    </section>
+
+    <!-- FINAL PROJECT -->
+    <section class="section project" id="project">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span></span>Final Project</p>
+        <h2>GROW <span class="green-word">GREEN</span></h2>
+        <p>This final section shows how the professional skills learned in lectures were applied through planning, teamwork, communication, budgeting and environmental responsibility.</p>
+      </div>
+
+      <div class="project-overview reveal">
+        <div class="project-title-card tilt">
+          <p class="eyebrow"><span></span>Small Plant · Big Impact</p>
+          <h3>A greener environment begins with one small step.</h3>
+          <p>The project encouraged students and lecturers to understand the importance of plants and take small eco-friendly actions in daily life. "Grow" represents planting and caring, while "Green" represents nature and a healthy environment.</p>
+        </div>
+        <div class="project-facts">
+          <article><span>Date</span><strong>07/05/2026</strong></article>
+          <article><span>Location</span><strong>Turret Tower · Hall 403</strong></article>
+          <article><span>Plants</span><strong>50</strong></article>
+          <article><span>Team</span><strong>41 Members</strong></article>
+        </div>
+      </div>
+
+
+
+      <div class="project-doc-highlight reveal">
+        <div>
+          <p class="eyebrow"><span></span>Project Document</p>
+          <h3>Grow Green Final Report</h3>
+          <p>The final project report is attached here for quick access. It can be viewed online or downloaded as a PDF.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary magnetic" href="../PS%20Report.pdf" target="_blank" rel="noopener">View Final Report</a>
+          <a class="btn secondary magnetic" href="../PS%20Report.pdf" download="PS Report.pdf">Download Report</a>
+        </div>
+      </div>
+
+
+      <div class="project-moments reveal">
+        <div class="section-head compact">
+          <p class="eyebrow"><span></span>Project Moments</p>
+          <h3>Real moments from <span class="green-word">Grow Green</span></h3>
+          <p>These photos highlight our final project presentation, teamwork and the plant-awareness activity in action.</p>
+        </div>
+        <div class="project-moment-grid">
+          <figure class="moment-card tilt" data-light="assets/photos/grow-green-moment-1.jpg">
+            <img src="assets/photos/grow-green-moment-1-thumb.webp" alt="Grow Green team photo holding decorative project frame" />
+            <figcaption><strong>Team presentation moment</strong><span>Grow Green frame activity with the team.</span></figcaption>
+          </figure>
+          <figure class="moment-card tilt" data-light="assets/photos/grow-green-moment-2.jpg">
+            <img src="assets/photos/grow-green-moment-2-thumb.webp" alt="Grow Green team group photo during final project" />
+            <figcaption><strong>Project participation</strong><span>Group photo during the final project event.</span></figcaption>
+          </figure>
+        </div>
+      </div>
+
+
+      <div class="project-tabs reveal">
+        <div class="tab-buttons" role="tablist" aria-label="Project tabs">
+          <button class="tab active" data-tab="project-intro" type="button">Introduction</button>
+          <button class="tab" data-tab="project-objectives" type="button">Objectives</button>
+          <button class="tab" data-tab="project-activities" type="button">Activities</button>
+          <button class="tab" data-tab="project-budget" type="button">Budget</button>
+          <button class="tab" data-tab="project-outcomes" type="button">Outcomes</button>
+          <button class="tab" data-tab="project-team" type="button">Team</button>
+          <button class="tab" data-tab="project-report" type="button">Report</button>
+        </div>
+
+        <div class="tab-panel active" id="project-intro">
+          <div class="content-grid two">
+            <article><h3>Project title</h3><p>The title <strong>Grow Green</strong> represents encouraging people to grow plants and protect the environment. "Grow" shows planting and caring, while "Green" represents nature and a healthy environment.</p></article>
+            <article><h3>Project purpose</h3><p>Our group distributed plants to students and lecturers to promote environmental awareness and remind everyone that caring for nature starts with individual responsibility.</p></article>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="project-objectives">
+          <div class="content-grid two">
+            <article><h3>Main objective</h3><p>To promote environmental awareness among students and lecturers by distributing plants within the university premises.</p></article>
+            <article><h3>Specific objectives</h3>
+              <ul>
+                <li>Encourage students and lecturers to plant and care for plants.</li>
+                <li>Promote environmental responsibility within the university community.</li>
+                <li>Increase awareness about the importance of greenery.</li>
+                <li>Support a cleaner and eco-friendly university environment.</li>
+                <li>Motivate young people to take small steps towards protecting nature.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="project-activities">
+          <div class="process-line">
+            <article><span>01</span><h3>Planning</h3><p>The team discussed purpose, target audience, plant quantity, location, distribution method and required materials.</p></article>
+            <article><span>02</span><h3>Implementation</h3><p>Plants were distributed inside the university premises with a short explanation about caring for plants.</p></article>
+            <article><span>03</span><h3>Resources</h3><p>Plants, location, participants, team members, bookmarks, photo booth props and photo booth.</p></article>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Resource</th><th>Quantity / Details</th></tr></thead>
+              <tbody>
+                <tr><td>Plants</td><td>50 plants</td></tr>
+                <tr><td>Location</td><td>University premises — Turret Tower, Hall No. 403</td></tr>
+                <tr><td>Participants</td><td>Students and lecturers</td></tr>
+                <tr><td>Team Members</td><td>41 members</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="project-budget">
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th scope="col">Item</th><th scope="col">Qty</th><th scope="col">Unit Cost (Rs.)</th><th scope="col">Total (Rs.)</th></tr></thead>
+              <tbody>
+                <tr><td>Sapling prizes</td><td>30</td><td>630</td><td>19,000</td></tr>
+                <tr><td>Stickers</td><td>40</td><td>60</td><td>2400</td></tr>
+                <tr><td>Posters &amp; Hosting Domain</td><td>9</td><td>95</td><td>850</td></tr>
+                <tr><td>Transport</td><td>-</td><td>-</td><td>3,500</td></tr>
+                <tr><td>Miscellaneous/contingency</td><td>1</td><td>-</td><td>3400</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="budget-total" aria-label="Total expense: 29,150 rupees">
+            <span>Total Expense</span>
+            <strong>Rs. 29,150</strong>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="project-outcomes">
+          <div class="content-grid three">
+            <article><h3>Outcomes</h3><p>50 plants were distributed successfully and the project created environmental awareness among participants.</p></article>
+            <article><h3>Challenges</h3><p>Arranging plants, managing time, coordinating team members and organising distribution required careful planning.</p></article>
+            <article><h3>Lessons learned</h3><p>I learned that small actions can create positive impact and that teamwork, planning, communication and responsibility are essential for project success.</p></article>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="project-team">
+          <div class="table-wrap">
+            <table class="members-table" aria-label="Project team members and student numbers">
+              <thead><tr><th scope="col">#</th><th scope="col">Name of the Student</th><th scope="col">SA Number</th></tr></thead>
+              <tbody id="teamGrid"></tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="project-report">
+          <div class="report-card">
+            <div>
+              <h3>Final report attached</h3>
+              <p>The complete Grow Green report includes the title page, group members, introduction, objectives, activities, outcomes, budget and gallery.</p>
+              <div class="hero-actions">
+                <a class="btn primary" href="../PS%20Report.pdf" target="_blank" rel="noopener">Open PDF</a>
+                <a class="btn secondary" href="../PS%20Report.pdf" download="PS Report.pdf">Download PDF</a>
+              </div>
+            </div>
+            <iframe src="../PS%20Report.pdf#view=FitH" title="Grow Green final report"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery" id="gallery">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span></span>Gallery</p>
+        <h2>The evidence,<br><span class="dim">in pictures.</span></h2>
+        <p>Project photos are kept for the final section, so the portfolio first highlights lecture learning, then finishes with real project evidence.</p>
+      </div>
+      <div class="gallery-grid reveal">
+        <figure data-light="assets/photos/grow-green-moment-1.jpg"><img src="assets/photos/grow-green-moment-1-thumb.webp" alt="Grow Green team photo holding the project frame" /><figcaption>Team presentation moment</figcaption></figure>
+        <figure data-light="assets/photos/grow-green-moment-2.jpg"><img src="assets/photos/grow-green-moment-2-thumb.webp" alt="Grow Green group photo during the final project" /><figcaption>Project participation</figcaption></figure>
+        <figure data-light="assets/photos/poster.webp"><img src="assets/photos/poster-thumb.webp" alt="Grow Green project poster" /><figcaption>Promotion poster</figcaption></figure>
+        <figure data-light="assets/photos/plants.webp"><img src="assets/photos/plants-thumb.webp" alt="Prepared plants for Grow Green" /><figcaption>Prepared plants</figcaption></figure>
+        <figure data-light="assets/photos/lecturers.webp"><img src="assets/photos/lecturers-thumb.webp" alt="Lecturers holding Grow Green plants" /><figcaption>Plant distribution</figcaption></figure>
+        <figure data-light="assets/photos/team.webp"><img src="assets/photos/team-thumb.webp" alt="Grow Green group photo" /><figcaption>Team photo</figcaption></figure>
+        <figure data-light="assets/report-pages/page-09.webp"><img src="assets/report-pages/page-09.webp" alt="Grow Green report gallery page one" /><figcaption>Report gallery — page 1</figcaption></figure>
+        <figure data-light="assets/report-pages/page-10.webp"><img src="assets/report-pages/page-10.webp" alt="Grow Green report gallery page two" /><figcaption>Report gallery — page 2</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div><strong>S. VAHEESH</strong><p>Professional Skills Portfolio · CV · Grow Green · 2026</p></div>
+    <a href="#home">↑ Back to top</a>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button type="button" id="closeLightbox" aria-label="Close image">Close ✕</button>
+    <img src="" alt="Project preview" />
+  </div>
+
+  <dialog class="search-dialog" id="searchDialog">
+    <div class="dialog-head"><strong>Search Portfolio</strong><button id="closeSearch" type="button">Close</button></div>
+    <input id="globalSearch" type="search" placeholder="Type lecture name, skill or project detail..." />
+    <div id="searchResults" class="search-results"></div>
+  </dialog>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
